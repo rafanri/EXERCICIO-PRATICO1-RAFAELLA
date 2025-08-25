@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<body>
+
+<h1> Lista de produtos</h1>
+
+<table border="1">
+<tr>
+
+<td>Produto</td>
+<td>Preço</td>
+<td>Quantidade em Estoque</td>
+
+</tr>
+<tr>
+
+<td>Guitarra</td>
+<td>726,75</td>
+<td>7</td>
+
+</tr>
+<tr>
+<td>Paleta de maquiagem</td>
+<td>60,00</td>
+<td>15</td>
+
+</tr>
+<tr>
+
+<td>Teclado</td>
+<td>200,00</td>
+<td>19</td>
+
+</tr>
+</table>
+
+<h2>Formulário de pedido</h2>
+<form action="pedido.html" method="post">
+ <label for="cliente">Nome do cliente:</label><br>
+<input type="text" id="cliente" name="cliente" required<br><br>
+
+<label for="produto">Produto desejado:<label><br>
+<select id="produto" name="produto">
+<option value="Guitarra">Guitarra</option>
+
+<option value="Paleta de maquiagem">Paleta de maquiagem</option>
+
+<option value="Teclado">Teclado</option>
+</select><br><br>
+
+<label for="Quantidade">Quantidade:</label><br>
+<input type="number" id="Quantidade" name="Quantidade" min="1" required><br>
+
+<input type="submit" value="Enviar pedido">
+
+</forms>
+</body>
