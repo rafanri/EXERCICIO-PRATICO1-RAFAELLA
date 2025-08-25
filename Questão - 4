@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<body>
+
+<h1>Entre em contato</h1>
+
+<form method="get"
+action="envio_dados.php">
+   <input type="text"
+name="nome"
+placeholder="Nome">
+
+   <input type="e-mail"
+name="email"
+placeholder="E-mail">
+
+<input type="text"
+name="mensagem"
+placeholder="Mensagem">
+
+</form>
+<form>
+
+   <input type="button"
+value="Enviar"
+onclick="msg()">
+</form>
+
+<script>
+function msg()  {
+alert("Você clicou no botão!");
+}
+
+</script>
+
+</form>
+</body>
