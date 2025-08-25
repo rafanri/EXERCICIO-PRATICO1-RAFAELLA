@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<body>
+
+<table border="1">
+<tr>
+
+<td>Nome</td>
+<td>Idade</td>
+<td>Profissão</td>
+
+</tr>
+<tr>
+
+<td>Sara</td>
+<td>23</td>
+<td>Modelo</td>
+
+</tr>
+<tr>
+
+<td>Gabriel</td>
+<td>21</td>
+<td>Jogador de futebol</td>
+
+</tr>
+<tr>
+
+<td>Julia</td>
+<td>32</td>
+<td>Professora</td>
+
+</tr>
+</table>
+
+</body>
