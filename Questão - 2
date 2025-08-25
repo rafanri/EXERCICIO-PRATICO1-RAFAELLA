@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<body>
+
+<form method="get"
+action="envio_dados.php">
+   <input type="text"
+name="nome"
+placeholder="Nome completo">
+
+   <input type="e-mail"
+name="email"
+placeholder="E-mail">
+
+   <input type="senha"
+name="senha"
+placeholder="Senha">
+
+</form>
+<form>
+
+   <input type="button"
+value="Cadastrar"
+onclick="msg()">
+</form>
+
+<script>
+function msg()  {
+alert("Você clicou no botão!");
+}
+
+</script>
+
+</form>
+</body>
